@@ -1,0 +1,805 @@
+{
+ "viaje": {
+  "titulo": "Edimburgo",
+  "fechas": "19 – 22 de noviembre de 2026",
+  "subtitulo": "Un fin de semana de chicas entre castillos, callejones y mercadillos de Navidad",
+  "portada": "cover_x1.jpg",
+  "vuelo_llegada": "Jueves 19, 21:55",
+  "vuelo_vuelta": "Domingo 22, 14:10",
+  "alojamiento": {
+   "nombre": "JOIVY Haymarket",
+   "direccion": "13 Rosebery Crescent, Edimburgo, EH12 5JY",
+   "fechas": "19–22 nov 2026",
+   "lat": 55.94669,
+   "lng": -3.21976
+  }
+ },
+ "dias": {
+  "jueves": {
+   "titulo": "Jueves 19 de noviembre",
+   "subtitulo": "¡Llegamos a Edimburgo!"
+  },
+  "viernes": {
+   "titulo": "Viernes 20 de noviembre",
+   "subtitulo": "Kelpies, castillo de Stirling y lago Lomond"
+  },
+  "sabado": {
+   "titulo": "Sábado 21 de noviembre",
+   "subtitulo": "La ciudad de punta a punta"
+  },
+  "domingo": {
+   "titulo": "Domingo 22 de noviembre",
+   "subtitulo": "El castillo y rumbo al aeropuerto"
+  }
+ },
+ "paradas": [
+  {
+   "dia": "jueves",
+   "hora": "Nuestro alojamiento",
+   "nombre": "JOIVY Haymarket",
+   "zona": "Haymarket · West End",
+   "descripcion": "13 Rosebery Crescent, Edimburgo, EH12 5JY. En el West End, a unos 3 minutos (200 m) de la estación y la parada de tranvía de Haymarket, a unos 15 minutos andando de Charlotte Square y de Dean Village, y a unos 25 del castillo.",
+   "info": [
+    "Reserva confirmada del 19 al 22 de noviembre de 2026."
+   ],
+   "foto": "rosebery_y1.jpg",
+   "pie_foto": "Rosebery Crescent",
+   "fotos_extra": [],
+   "lat": 55.94669,
+   "lng": -3.21976,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=JOIVY+Haymarket%2C+13+Rosebery+Crescent%2C+Edinburgh+EH12+5JY",
+   "tipo": "alojamiento"
+  },
+  {
+   "dia": "viernes",
+   "hora": "08:15",
+   "nombre": "Quedamos en 17 Charlotte Square",
+   "zona": "New Town",
+   "descripcion": "La excursión sale de 17 Charlotte Square, la plaza georgiana del extremo oeste de George Street. Desde el alojamiento son unos 16 minutos andando (1,2 km), así que salimos a las 7:55. Mejor llegar con tiempo y subir juntas.",
+   "info": [
+    "Salida a las 8:30 en punto."
+   ],
+   "foto": "charlotte_y2.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9522,
+   "lng": -3.2077,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=17+Charlotte+Square%2C+Edinburgh+EH2+4DJ",
+   "tipo": "parada"
+  },
+  {
+   "dia": "viernes",
+   "hora": "18:00 – 19:30",
+   "nombre": "Mercadillo de Navidad · East Princes Street Gardens",
+   "zona": "New Town",
+   "descripcion": "Primer contacto con la Navidad escocesa: puestos, luces y vino caliente a los pies del Scott Monument, a unos 15 minutos andando (1 km) desde Charlotte Square. Si llegamos tarde, vuelta más corta y listo.",
+   "info": [
+    "Del 14 de noviembre de 2026 al 3 de enero de 2027. Entrada libre al mercado (unos 70 puestos).",
+    "Noria LNER Big Wheel (46 m) y Star Flyer (80 m), de pago. Información oficial"
+   ],
+   "foto": "market_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9518,
+   "lng": -3.1955,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=East+Princes+Street+Gardens%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "viernes",
+   "hora": "19:30 – 20:30",
+   "nombre": "George Street y cena",
+   "zona": "New Town",
+   "descripcion": "George Street es la tercera zona de Edinburgh’s Christmas y la calle más elegante para ir de tiendas. No os perdáis la fachada iluminada de The Dome para la foto de grupo, y después a cenar por el centro.",
+   "info": [],
+   "foto": "georgest_4.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9537,
+   "lng": -3.1956,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=The+Dome%2C+14+George+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "08:00 – 08:35",
+   "nombre": "Dean Village",
+   "zona": "Dean Village",
+   "descripcion": "Un pueblecito de cuento en plena ciudad, a unos 15 minutos andando del alojamiento (1,1 km; salimos a las 7:45): antiguos molinos junto al río Water of Leith y el edificio de Well Court reflejado en el agua. Amanece hacia las 8:10, así que pillaremos una luz suave preciosa.",
+   "info": [],
+   "foto": "dean_2.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9524,
+   "lng": -3.2159,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Dean+Village%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "08:55 – 09:10",
+   "nombre": "Circus Lane",
+   "zona": "Stockbridge",
+   "descripcion": "Callejón adoquinado de Stockbridge con casitas y la torre de St Stephen al fondo. Llegamos desde Dean Village en unos 17 minutos andando por la orilla del Water of Leith (1,3 km). De aquí a Calton Hill vamos en taxi: unos 2 km, entre 5 y 10 minutos (andando serían 25).",
+   "info": [],
+   "foto": "circus_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.958,
+   "lng": -3.2056,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Circus+Lane%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "09:20 – 09:55",
+   "nombre": "Calton Hill",
+   "zona": "Calton Hill",
+   "descripcion": "La colina de los monumentos y, para muchas, la mejor vista de Edimburgo: el National Monument, la torre de Nelson y el templete de Dugald Stewart, que es el de la portada de esta guía. Gratis.",
+   "info": [],
+   "foto": "calton_3.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9548,
+   "lng": -3.182,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Calton+Hill%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "10:10 – 11:25",
+   "nombre": "Palace of Holyroodhouse",
+   "zona": "Canongate",
+   "descripcion": "Bajando unos 15 minutos desde Calton Hill (1,1 km) llegamos a la residencia oficial del rey en Escocia. Aquí vivió María Estuardo: veremos sus aposentos, la Gran Galería y las ruinas de la abadía, y en estas fechas el palacio ya está decorado para Navidad.",
+   "info": [
+    "En este periodo abre de jueves a lunes, de 9:30 a 16:30 (última entrada 15:15).",
+    "Adulto £22 (≈ 26 €) comprando antes · £26 (≈ 31 €) el mismo día · 18–24 años £14 (≈ 17 €). Desde el 19 de noviembre incluye la decoración navideña.",
+    "Entradas oficiales"
+   ],
+   "foto": "holyrood_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9527,
+   "lng": -3.1722,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Palace+of+Holyroodhouse%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "11:35 – 11:50",
+   "nombre": "Canongate Tolbooth",
+   "zona": "Canongate",
+   "descripcion": "Edificio de 1591 con su reloj saliente, en la parte baja de la Royal Mile. Hoy es el museo The People’s Story. Está a unos 7 minutos subiendo desde el palacio (550 m).",
+   "info": [],
+   "foto": "canongate_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9517,
+   "lng": -3.1803,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Canongate+Tolbooth%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "12:05 – 12:15",
+   "nombre": "Royal Mile y Heart of Midlothian",
+   "zona": "High Street",
+   "descripcion": "Seguimos subiendo unos 12 minutos (800 m) por la calle más famosa de la ciudad, con sus fachadas, gaiteros y tiendas de tartán. Junto a la puerta oeste de St Giles, buscad en el suelo el corazón de piedra del Heart of Midlothian: marca el lugar de la antigua cárcel y la tradición local es escupir en él.",
+   "info": [],
+   "foto": "royalmile_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [
+    "heart_2.jpg"
+   ],
+   "lat": 55.9496,
+   "lng": -3.1918,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Heart+of+Midlothian%2C+Royal+Mile%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "12:15 – 12:35",
+   "nombre": "St Giles’ Cathedral",
+   "zona": "Parliament Square",
+   "descripcion": "La catedral con la corona de piedra en la torre, justo al lado del corazón. Si entráis, no os perdáis la Thistle Chapel, con un techo espectacular.",
+   "info": [
+    "Entrada general de pago para mayores de 16 años no residentes en Escocia.",
+    "Viernes 10:00–18:00 · sábado 9:00–17:00 · domingo 13:00–17:00. Información oficial"
+   ],
+   "foto": "stgiles_4.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9495,
+   "lng": -3.1909,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=St+Giles%27+Cathedral%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "12:35 – 12:45",
+   "nombre": "Advocate’s Close",
+   "zona": "High Street, 357",
+   "descripcion": "Una de las fotos más bonitas de Edimburgo: desde lo alto de las escaleras, el Scott Monument queda enmarcado por el pasaje. Turnaos para salir todas.",
+   "info": [],
+   "foto": "advocate_x1.jpg",
+   "pie_foto": "La vista del Scott Monument desde Advocate’s Close",
+   "fotos_extra": [],
+   "lat": 55.9503,
+   "lng": -3.1911,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Advocate%27s+Close%2C+High+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "12:50 – 13:10",
+   "nombre": "Victoria Street",
+   "zona": "Old Town",
+   "descripcion": "La calle curva de fachadas de colores que todas habéis visto en Instagram. Se dice que inspiró el callejón Diagon de Harry Potter. Fotos y tiendas con encanto.",
+   "info": [],
+   "foto": "victoria_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9486,
+   "lng": -3.1937,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Victoria+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "13:15 – 14:05",
+   "nombre": "Grassmarket y comida escocesa",
+   "zona": "Grassmarket",
+   "descripcion": "Antigua plaza de mercado a los pies del castillo, llena de pubs y restaurantes. Hoy sí: haggis con neeps and tatties (nabo y patata) u otro plato típico, y comemos con calma.",
+   "info": [],
+   "foto": "grassmarket_2.jpg",
+   "pie_foto": null,
+   "fotos_extra": [
+    "haggis_1.jpg"
+   ],
+   "lat": 55.9475,
+   "lng": -3.1955,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Grassmarket%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "14:10 – 14:25",
+   "nombre": "The Vennel",
+   "zona": "Grassmarket",
+   "descripcion": "Las escaleras junto a la muralla de Flodden con la vista de postal del castillo sobre los tejados. Foto de grupo obligatoria.",
+   "info": [],
+   "foto": "vennel_3.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9464,
+   "lng": -3.1971,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=The+Vennel%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "14:30 – 14:50",
+   "nombre": "Greyfriars Kirkyard",
+   "zona": "Candlemaker Row",
+   "descripcion": "Cementerio histórico lleno de leyendas, junto a la estatua del perrito Greyfriars Bobby. Para las fans de Harry Potter: buscad las lápidas y nombres que se relacionan con la saga, aunque no todas las conexiones están demostradas.",
+   "info": [],
+   "foto": "greyfriars_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9468,
+   "lng": -3.1921,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Greyfriars+Kirkyard%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "15:00 – 15:25",
+   "nombre": "The Meadows",
+   "zona": "Southside",
+   "descripcion": "El gran parque al sur del casco antiguo, a unos 7 minutos de Greyfriars (550 m), con la última luz del día. Si vamos con retraso, es la primera parada que nos saltamos.",
+   "info": [],
+   "foto": "meadows_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.942,
+   "lng": -3.1924,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=The+Meadows%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "15:35 – 16:15",
+   "nombre": "National Museum of Scotland",
+   "zona": "Chambers Street",
+   "descripcion": "A unos 9 minutos de The Meadows (650 m). Entramos para ver la gran galería victoriana, que es una maravilla, y alguna sala. Nada de intentar verlo entero.",
+   "info": [
+    "Entrada general gratuita. Abre todos los días de 10:00 a 17:00. Web oficial"
+   ],
+   "foto": "nms_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9469,
+   "lng": -3.1893,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=National+Museum+of+Scotland%2C+Chambers+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "16:30 – 16:50",
+   "nombre": "Scott Monument y Princes Street Gardens",
+   "zona": "Princes Street",
+   "descripcion": "A unos 11 minutos andando desde el museo (850 m): el monumento gótico de 61 metros dedicado a Walter Scott y los jardines bajo el castillo, ya con las luces encendidas.",
+   "info": [],
+   "foto": "scott_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9524,
+   "lng": -3.1933,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Scott+Monument%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "16:50 – 18:30",
+   "nombre": "Mercadillo navideño",
+   "zona": "East Princes Street Gardens",
+   "descripcion": "Ahora sí, el mercadillo de noche, con todo iluminado. Luces, puestos, vino caliente y atracciones: ¿alguna se anima a la noria?",
+   "info": [
+    "Del 14 de noviembre de 2026 al 3 de enero de 2027. Entrada libre al mercado (unos 70 puestos).",
+    "Noria LNER Big Wheel (46 m) y Star Flyer (80 m), de pago. Información oficial"
+   ],
+   "foto": "market_3.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9518,
+   "lng": -3.1955,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=East+Princes+Street+Gardens%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "18:35 – 19:30",
+   "nombre": "George Street",
+   "zona": "New Town",
+   "descripcion": "A 5 minutos del mercadillo. Paseo bajo las luces navideñas y cena por el centro.",
+   "info": [],
+   "foto": "georgest_5.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9537,
+   "lng": -3.1956,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=The+Dome%2C+14+George+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "sabado",
+   "hora": "Desde 20:30",
+   "nombre": "Cena y cóctel en Panda & Sons",
+   "zona": "Queen Street",
+   "descripcion": "Para cerrar el día por todo lo alto: un bar de cócteles secreto escondido detrás de una fachada de barbería, en el 79 de Queen Street, a unos 12 minutos de George Street. Opcional, según las fuerzas que nos queden. Si vamos, mejor reservar. Desde aquí al alojamiento hay unos 18 minutos andando.",
+   "info": [],
+   "foto": "panda_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9535,
+   "lng": -3.2075,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Panda+%26+Sons%2C+79+Queen+Street%2C+Edinburgh",
+   "tipo": "parada"
+  },
+  {
+   "dia": "domingo",
+   "hora": "09:30 – 11:10",
+   "nombre": "Edinburgh Castle",
+   "zona": "Castle Rock",
+   "descripcion": "Nos plantamos en la explanada hacia las 9:15 para entrar en el primer turno de las 9:30. Unas dos horas para lo imprescindible: las Joyas de la Corona de Escocia, la Piedra del Destino, el Gran Salón y las vistas desde las murallas.",
+   "info": [
+    "Abre de 9:30 a 17:00 (horario de invierno); última entrada a las 16:00.",
+    "Adulto: £23,50 (≈ 28 €) online · £26 (≈ 31 €) en taquilla. Si se agota online, no se vende en la puerta. Entradas oficiales"
+   ],
+   "foto": "castle_3.jpg",
+   "pie_foto": "El castillo desde Princes Street Gardens",
+   "fotos_extra": [],
+   "lat": 55.9486,
+   "lng": -3.1999,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Edinburgh+Castle",
+   "tipo": "parada"
+  },
+  {
+   "dia": "domingo",
+   "hora": "11:10 – 11:20",
+   "nombre": "Lady Stair’s Close",
+   "zona": "Lawnmarket",
+   "descripcion": "A unos 5 minutos de la salida del castillo (350 m), un callejón escondido del Lawnmarket que se abre a un patio precioso, el de Lady Stair’s House (1622), sede del Writers’ Museum. Última foto antes de irnos.",
+   "info": [],
+   "foto": "ladystair_1.jpg",
+   "pie_foto": null,
+   "fotos_extra": [],
+   "lat": 55.9496,
+   "lng": -3.1946,
+   "google_maps": "https://www.google.com/maps/search/?api=1&query=Lady+Stair%27s+Close%2C+Edinburgh",
+   "tipo": "parada"
+  }
+ ],
+ "excursion_viernes": {
+  "dia": "viernes",
+  "hora": "08:30 – 17:30 aprox.",
+  "nombre": "Excursión Stewart Tours: Kelpies, castillo de Stirling y lago Lomond",
+  "descripcion": "Nos vamos de excursión con Stewart Tours: primero los Kelpies, los caballos gigantes de acero, y después Stirling, con tiempo libre y la opción de entrar en su castillo. Seguimos por el parque nacional de Loch Lomond y los Trossachs y paramos a comer en Luss, un pueblecito precioso a orillas del lago Lomond donde podremos conocer a las famosas vacas peludas.",
+  "info": [
+   "Salida a las 8:30 desde 17 Charlotte Square · duración unas 9 horas (vuelta hacia las 17:30).",
+   "Desde 54 € por persona. Guía en inglés. Cancelación gratuita hasta 24 horas antes.",
+   "Entrada al castillo de Stirling opcional y aparte: £18,50 (≈ 22 €) online · £20,50 (≈ 24 €) en taquilla.",
+   "Rato libre en Luss para comer por nuestra cuenta. El itinerario puede cambiar según el tiempo y el tráfico."
+  ],
+  "punto_salida": "17 Charlotte Square, Edinburgh EH2 4DJ",
+  "foto_principal": "luss_y2.jpg",
+  "galeria": [
+   {
+    "foto": "kelpies_1.jpg",
+    "nombre": "The Kelpies",
+    "lat": 56.0193,
+    "lng": -3.7546
+   },
+   {
+    "foto": "stirling_y2.jpg",
+    "nombre": "Castillo de Stirling",
+    "lat": 56.1238,
+    "lng": -3.9469
+   },
+   {
+    "foto": "luss_y4.jpg",
+    "nombre": "Luss y el lago Lomond",
+    "lat": 56.1013,
+    "lng": -4.6371
+   },
+   {
+    "foto": "coo_1.jpg",
+    "nombre": "Vaca de las Highlands (foto ilustrativa, tomada en Skye)",
+    "lat": null,
+    "lng": null
+   }
+  ]
+ },
+ "momentos_sin_lugar": [
+  {
+   "dia": "jueves",
+   "hora": "21:55",
+   "texto": "Aterrizamos en el aeropuerto de Edimburgo."
+  },
+  {
+   "dia": "jueves",
+   "hora": "22:15–23:00",
+   "texto": "Traslado al alojamiento en tranvía o en el Airlink 100 hasta Haymarket (las opciones, a continuación)."
+  },
+  {
+   "dia": "jueves",
+   "hora": "Noche",
+   "texto": "A dormir, chicas. Mañana madrugamos y esta noche no merece la pena forzar."
+  },
+  {
+   "dia": "viernes",
+   "hora": "07:15–07:55",
+   "texto": "Desayuno tranquilo. Ropa impermeable, calzado cómodo y algo de picar y agua para el autobús."
+  },
+  {
+   "dia": "domingo",
+   "hora": "08:00–08:45",
+   "texto": "Desayuno y maletas hechas. Salimos a las 8:45: hasta el castillo hay unos 26 minutos andando (1,9 km). El castillo no admite equipaje grande: o las dejamos en el alojamiento o en una consigna cerca del castillo."
+  },
+  {
+   "dia": "domingo",
+   "hora": "11:20–11:55",
+   "texto": "Vuelta al JOIVY a por las maletas (unos 27 min andando, 2 km) o recogida en la consigna."
+  },
+  {
+   "dia": "domingo",
+   "hora": "12:00",
+   "texto": "Salimos hacia el aeropuerto: 3 min andando hasta Haymarket y tranvía de unos 25 min (vale el billete de ida y vuelta)."
+  },
+  {
+   "dia": "domingo",
+   "hora": "14:10",
+   "texto": "Vuelo de vuelta."
+  }
+ ],
+ "notas": [
+  {
+   "dia": "jueves",
+   "tipo": "tip",
+   "titulo": "Nuestro consejo.",
+   "texto": "Lo más cómodo es el tranvía o el Airlink 100 hasta Haymarket: el alojamiento queda a unos 3 minutos andando (200 m). Comprad billete de ida y vuelta abierta y os vale también para volver al aeropuerto el domingo. Si el vuelo se retrasa y perdemos el último tranvía, el Airlink 100 funciona toda la noche. Si sois cuatro, el taxi sale a un precio parecido por persona y os deja en la puerta."
+  },
+  {
+   "dia": "viernes",
+   "tipo": "warn",
+   "titulo": "Ojo con la vuelta, chicas.",
+   "texto": "La hora de vuelta es aproximada. Por eso esta tarde solo hay planes sin reserva: si el bus se retrasa, no perdemos nada."
+  },
+  {
+   "dia": "sabado",
+   "tipo": "tip",
+   "titulo": "Sin agobios, chicas.",
+   "texto": "Es un día muy completo. Si nos entretenemos, recortamos The Meadows o el museo antes que ir corriendo por toda la ciudad."
+  },
+  {
+   "dia": "domingo",
+   "tipo": "tip",
+   "titulo": null,
+   "texto": "Arthur’s Seat se queda para la próxima: subir y bajar con tranquilidad no da tiempo antes del vuelo."
+  }
+ ],
+ "transporte_aeropuerto": [
+  {
+   "opcion": "Tranvía",
+   "trayecto": "Parada Edinburgh Airport → Haymarket",
+   "detalle": "Unos 25 min · cada 10 min por la noche. Último tranvía desde el aeropuerto a las 22:52.",
+   "precio": "Por persona: ida £7,90 (≈ 9 €) · ida y vuelta abierta £9,50 (≈ 11 €)",
+   "foto": "tram_y1.jpg"
+  },
+  {
+   "opcion": "Autobús Airlink 100",
+   "trayecto": "Aeropuerto → parada de Haymarket",
+   "detalle": "Unos 25–30 min · funciona 24 horas, cada 10 min hasta la 1:00.",
+   "precio": "Por persona: ida £6 (≈ 7 €) · ida y vuelta abierta £8,50 (≈ 10 €)",
+   "foto": "airlink_y1.jpg"
+  },
+  {
+   "opcion": "Taxi",
+   "trayecto": "Parada de taxis del aeropuerto → puerta del alojamiento",
+   "detalle": "Unos 20–25 min. Tarifa nocturna (desde las 18:00) más el recargo de recogida del aeropuerto.",
+   "precio": "Entre £25 (≈ 30 €) y £35 (≈ 42 €) por taxi, a repartir (hasta 4 personas)"
+  },
+  {
+   "opcion": "Uber / Bolt",
+   "trayecto": "Zona de recogida del aeropuerto → puerta del alojamiento",
+   "detalle": "Unos 20–25 min. El precio cambia según la demanda.",
+   "precio": "Precio variable, parecido al taxi"
+  }
+ ],
+ "datos_utiles": [
+  "Amanece hacia las 8:10 y anochece hacia las 15:50.",
+  "Frío, viento y lluvia casi segura: botas impermeables y capas.",
+  "Los tiempos de desplazamiento son estimaciones.",
+  "Cambio usado: 1 £ = 1,1948 € (27/10/2026). Los euros son aproximados."
+ ],
+ "fotos": [
+  {
+   "archivo": "advocate_x1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_iconic_framed_view_of_the_Scott_Monument_from_the_top_of_Advocates_Close.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_iconic_framed_view_of_the_Scott_Monument_from_the_top_of_Advocates_Close.jpg",
+   "autor": "Stephencdickson",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "airlink_y1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Airlink_100_lothian_buses_%28Edinburgh%29_in_2025.04.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Airlink_100_lothian_buses_(Edinburgh)_in_2025.04.jpg",
+   "autor": "CAPTAIN RAJU",
+   "licencia": "CC0"
+  },
+  {
+   "archivo": "calton_3.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Calton_Hill.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Edinburgh_Calton_Hill.jpg",
+   "autor": "Saffron Blaze",
+   "licencia": "CC BY 3.0"
+  },
+  {
+   "archivo": "canongate_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Canongate_Tolbooth%2C_Edinburgh.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Canongate_Tolbooth,_Edinburgh.jpg",
+   "autor": "Kilnburn",
+   "licencia": "Attribution"
+  },
+  {
+   "archivo": "castle_3.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Princes_Street_Gardens_and_Edinburgh_Castle_-_geograph.org.uk_-_8141306.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Princes_Street_Gardens_and_Edinburgh_Castle_-_geograph.org.uk_-_8141306.jpg",
+   "autor": "Graham Hogg",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "charlotte_y2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte_Square_from_the_SW.JPG?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Charlotte_Square_from_the_SW.JPG",
+   "autor": "Stephencdickson",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "circus_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Circus_Lane%2C_Edinburgh_%2850461017443%29.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Circus_Lane,_Edinburgh_(50461017443).jpg",
+   "autor": "Ralf Steinberger from Milan, Berlin + Munich, Italy + Germany",
+   "licencia": "CC BY 2.0"
+  },
+  {
+   "archivo": "coo_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Highland_Cattle_on_Isle_of_Skye%2C_Scotland.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Highland_Cattle_on_Isle_of_Skye,_Scotland.jpg",
+   "autor": "Raphael Hofmann",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "cover_x1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Edinburgh.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Skyline_of_Edinburgh.jpg",
+   "autor": "Andrew Colin",
+   "licencia": "CC BY 2.0"
+  },
+  {
+   "archivo": "dean_2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Dean_Village_%2850312338893%29.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Dean_Village_(50312338893).jpg",
+   "autor": "Alex Liivet from Chester, United Kingdom",
+   "licencia": "CC0"
+  },
+  {
+   "archivo": "georgest_4.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas_decorations_at_The_Dome%2C_George_Street%2C_Edinburgh_-_geograph.org.uk_-_6344847.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Christmas_decorations_at_The_Dome,_George_Street,_Edinburgh_-_geograph.org.uk_-_6344847.jpg",
+   "autor": "Claire Pegrum",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "georgest_5.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_George_Street_Christmas_lights_-_geograph.org.uk_-_6008157.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Edinburgh_George_Street_Christmas_lights_-_geograph.org.uk_-_6008157.jpg",
+   "autor": "M J Richardson",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "grassmarket_2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/East_end_of_the_Grassmarket%2C_Edinburgh_%28composite%29.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:East_end_of_the_Grassmarket,_Edinburgh_(composite).jpg",
+   "autor": "Kim Traynor",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "archivo": "greyfriars_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Greyfriars_Kirkyard%2C_Edinburgh_2.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Greyfriars_Kirkyard,_Edinburgh_2.jpg",
+   "autor": "Scglossop1",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "haggis_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Haggis%2C_neeps_and_tatties_at_The_Cramond_Inn%2C_Edinburgh_%282660769244%29.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Haggis,_neeps_and_tatties_at_The_Cramond_Inn,_Edinburgh_(2660769244).jpg",
+   "autor": "Edinburgh Blog",
+   "licencia": "CC BY 2.0"
+  },
+  {
+   "archivo": "heart_2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Heart_of_Midlothian.JPG?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_Heart_of_Midlothian.JPG",
+   "autor": "Kim Traynor",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "archivo": "holyrood_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Holyroodhouse%2C_Edinburgh.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Palace_of_Holyroodhouse,_Edinburgh.jpg",
+   "autor": "Kim Traynor",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "archivo": "kelpies_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Kelpies_-_June_2016.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_Kelpies_-_June_2016.jpg",
+   "autor": "DeFacto",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "ladystair_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_-_Edinburgh%2C_Lawnmarket%2C_Lady_Stair%27s_Close%2C_Lady_Stair%27s_House_-_20140421142708.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Edinburgh_-_Edinburgh,_Lawnmarket,_Lady_Stair%27s_Close,_Lady_Stair%27s_House_-_20140421142708.jpg",
+   "autor": "Enric",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "luss_y2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Regno_Unito_-_Scozia-_Luss-_Loch_Lomond.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Regno_Unito_-_Scozia-_Luss-_Loch_Lomond.jpg",
+   "autor": "Mario Falcetti",
+   "licencia": "CC BY 4.0"
+  },
+  {
+   "archivo": "luss_y4.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Loch_Lomond_from_Luss_Pier_-_geograph.org.uk_-_7307571.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Loch_Lomond_from_Luss_Pier_-_geograph.org.uk_-_7307571.jpg",
+   "autor": "Jim Smillie",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "market_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Christmas_Market%2C_Princes_Street_Gardens_Edinburgh_-_geograph.org.uk_-_5995165.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Christmas_Market,_Princes_Street_Gardens_Edinburgh_-_geograph.org.uk_-_5995165.jpg",
+   "autor": "Jim Barton",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "market_3.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/PXL_20241213_212618387.LONG_EXPOSURE-03.COVER_East_Princes_Street_Gardens_Christmas_Festival_Edinburgh_UK.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:PXL_20241213_212618387.LONG_EXPOSURE-03.COVER_East_Princes_Street_Gardens_Christmas_Festival_Edinburgh_UK.jpg",
+   "autor": "Sourabh.biswas003",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "meadows_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Meadows%2C_Edinburgh_-_geograph.org.uk_-_4506205.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_Meadows,_Edinburgh_-_geograph.org.uk_-_4506205.jpg",
+   "autor": "Graham Robson",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "nms_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Grand_Gallery_of_the_National_Museum_of_Scotland_-_geograph.org.uk_-_2561565.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_Grand_Gallery_of_the_National_Museum_of_Scotland_-_geograph.org.uk_-_2561565.jpg",
+   "autor": "M J Richardson",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "panda_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda_and_Sons_-_geograph.org.uk_-_6194531.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Panda_and_Sons_-_geograph.org.uk_-_6194531.jpg",
+   "autor": "Richard Sutcliffe",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "rosebery_y1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosebery_Crescent_-_geograph.org.uk_-_7970282.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Rosebery_Crescent_-_geograph.org.uk_-_7970282.jpg",
+   "autor": "Richard Webb",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "royalmile_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/High_Street_%28Royal_Mile%29_-_geograph.org.uk_-_8085874.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:High_Street_(Royal_Mile)_-_geograph.org.uk_-_8085874.jpg",
+   "autor": "Anthony O'Neil",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "scott_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Scott_Monument-20110903-RM-160826.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Edinburgh_Scott_Monument-20110903-RM-160826.jpg",
+   "autor": "Ermell",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "stgiles_4.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/City_of_Edinburgh_-_St_Giles%27_Cathedral_-_20090715183019.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_St_Giles%27_Cathedral_-_20090715183019.jpg",
+   "autor": "Bjdream",
+   "licencia": "CC BY-SA 4.0"
+  },
+  {
+   "archivo": "stirling_y2.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Stirlingcastle.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Stirlingcastle.jpg",
+   "autor": "Autor desconocido",
+   "licencia": "CC BY-SA 3.0"
+  },
+  {
+   "archivo": "tram_y1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Tram_at_the_Edinburgh_Airport_terminus_stop_%28geograph_3738462%29.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Tram_at_the_Edinburgh_Airport_terminus_stop_(geograph_3738462).jpg",
+   "autor": "M J Richardson",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "vennel_3.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Miss_Jean_Brodie_Steps_-_geograph.org.uk_-_7340867.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:The_Miss_Jean_Brodie_Steps_-_geograph.org.uk_-_7340867.jpg",
+   "autor": "Andrew Abbott",
+   "licencia": "CC BY-SA 2.0"
+  },
+  {
+   "archivo": "victoria_1.jpg",
+   "url_descarga": "https://commons.wikimedia.org/wiki/Special:FilePath/Edinburgh_Victora_Street_20211019.jpg?width=1280",
+   "pagina_commons": "https://commons.wikimedia.org/wiki/File:Edinburgh_Victora_Street_20211019.jpg",
+   "autor": "Daniel Kraft",
+   "licencia": "CC BY-SA 3.0"
+  }
+ ]
+}

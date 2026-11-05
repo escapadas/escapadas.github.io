@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1c2b3a">
+  <meta name="description" content="Mapa interactivo de nuestra guía de Edimburgo: el plan de cada día, del 19 al 22 de noviembre de 2026.">
+  <title>Edimburgo · Mapa de la guía</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Portada -->
+  <div id="splash" class="splash" role="dialog" aria-modal="true" aria-labelledby="splashTitle">
+    <picture class="splash-bg">
+      <source type="image/webp" srcset="img/cover_x1.webp">
+      <img src="img/cover_x1.jpg" alt="Vista de Edimburgo desde Calton Hill, con el templete de Dugald Stewart">
+    </picture>
+    <div class="splash-content">
+      <p class="eyebrow eyebrow-light">Guía de viaje · Escocia</p>
+      <h1 id="splashTitle" class="splash-title">Edimburgo</h1>
+      <p class="splash-dates" id="splashDates"></p>
+      <p class="splash-sub" id="splashSub"></p>
+      <button type="button" class="btn btn-primary btn-lg" id="splashGo">Ver el mapa</button>
+    </div>
+  </div>
+
+  <!-- Barra superior: selector de día -->
+  <header class="topbar" id="topbar">
+    <nav class="pills" id="pills" aria-label="Elegir día"></nav>
+    <button type="button" class="fab fab-info" id="btnInfo" aria-label="Información del viaje" title="Información">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 10.5v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="7.3" r="1.25" fill="currentColor"/></svg>
+    </button>
+  </header>
+
+  <!-- Mapa -->
+  <main id="map" class="map" aria-label="Mapa de Edimburgo con las paradas de la guía"></main>
+
+  <!-- Botón flotante -->
+  <button type="button" class="fab fab-locate" id="btnLocate" aria-label="Dónde estoy" title="Dónde estoy">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v3.2M12 18.3v3.2M2.5 12h3.2M18.3 12h3.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="7.3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+    <span class="fab-label">Dónde estoy</span>
+  </button>
+
+  <!-- Panel inferior -->
+  <section id="sheet" class="sheet" data-state="peek" aria-label="Plan del día">
+    <div class="sheet-grip" id="grip">
+      <button type="button" class="grip-btn" id="gripBtn" aria-label="Ampliar o reducir el panel"><span></span></button>
+    </div>
+    <div class="sheet-head" id="sheetHead"></div>
+    <div class="sheet-body" id="sheetBody" tabindex="-1"></div>
+  </section>
+
+  <!-- Información -->
+  <div id="info" class="overlay" role="dialog" aria-modal="true" aria-labelledby="infoTitle" hidden>
+    <div class="overlay-inner">
+      <div class="overlay-bar">
+        <p class="eyebrow">Información</p>
+        <button type="button" class="icon-btn" id="infoClose" aria-label="Cerrar información">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="overlay-body" id="infoBody"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Chicas, para ver el mapa hace falta tener JavaScript activado en el navegador.</p></noscript>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
