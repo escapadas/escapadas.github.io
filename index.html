@@ -39,6 +39,11 @@
   <!-- Mapa -->
   <main id="map" class="map" aria-label="Mapa de Edimburgo con las paradas de la guía"></main>
 
+  <!-- El tiempo ahora (abre la previsión de 7 días) -->
+  <button type="button" class="fab fab-weather" id="btnTiempo" aria-haspopup="dialog" aria-controls="tiempo" aria-label="El tiempo en Edimburgo">
+    <span class="wx-temp">—</span>
+  </button>
+
   <!-- Botón flotante -->
   <button type="button" class="fab fab-locate" id="btnLocate" aria-label="Dónde estoy" title="Dónde estoy">
     <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v3.2M12 18.3v3.2M2.5 12h3.2M18.3 12h3.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="7.3" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
@@ -67,11 +72,25 @@
     </div>
   </div>
 
+  <!-- El tiempo -->
+  <div id="tiempo" class="overlay overlay-wx" role="dialog" aria-modal="true" aria-labelledby="tiempoTitle" hidden>
+    <div class="overlay-inner">
+      <div class="overlay-bar">
+        <p class="eyebrow">El tiempo en Edimburgo</p>
+        <button type="button" class="icon-btn" id="tiempoClose" aria-label="Cerrar el tiempo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="overlay-body" id="tiempoBody"></div>
+    </div>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <noscript><p class="noscript">Chicas, para ver el mapa hace falta tener JavaScript activado en el navegador.</p></noscript>
 
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/tiempo.js"></script>
 </body>
 </html>

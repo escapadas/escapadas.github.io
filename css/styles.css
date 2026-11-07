@@ -27,6 +27,12 @@
   --safe-b: env(safe-area-inset-bottom, 0px);
   --safe-t: env(safe-area-inset-top, 0px);
   --radius: 14px;
+  --sol: #e9c46a;
+  --sol-borde: #a8844a;
+  --luna: #efe6d2;
+  --nube: #ffffff;
+  --nube-osc: #dfe4ea;
+  --lluvia: #3f6e9a;
   --shadow: 0 6px 24px rgba(28, 43, 58, .18), 0 1px 3px rgba(28, 43, 58, .12);
 }
 
@@ -172,7 +178,7 @@ a { color: var(--granate); }
   padding: 1px 6px !important; border-radius: 6px 0 0 0;
 }
 .leaflet-bottom { bottom: var(--sheet-h); transition: bottom .28s ease; }
-.leaflet-top.leaflet-right { top: calc(var(--top-h) + 4px); }
+.leaflet-top.leaflet-right { top: calc(var(--top-h) + 64px); }
 .leaflet-control-zoom { display: none; }
 
 /* Marcadores */
@@ -520,6 +526,63 @@ button.gallery-item span { color: var(--navy); font-weight: 600; }
 .credits .meta { color: var(--texto-2); }
 .credits a { display: inline-block; padding: 4px 0; min-height: 0; }
 .small { font-size: 13px; color: var(--texto-2); }
+
+/* ---------- El tiempo ---------- */
+.fab-weather {
+  top: calc(var(--top-h) + 2px); right: 10px;
+  height: 50px; min-width: 50px; padding: 0 12px 0 8px; gap: 4px;
+  border-radius: 14px;
+}
+.fab-weather .wx-icon { width: 32px; height: 32px; }
+.fab-weather .wx-temp { font-weight: 600; font-size: 16px; font-variant-numeric: tabular-nums; color: var(--navy); }
+.fab-weather[aria-busy="true"] .wx-icon { opacity: .55; }
+.wx-icon { display: block; width: 40px; height: 40px; flex: 0 0 auto; overflow: visible; }
+.mini { width: 15px; height: 15px; display: inline-block; vertical-align: -2px; margin-right: 4px; flex: 0 0 auto; }
+
+.wx-now {
+  margin-top: 16px; padding: 16px;
+  background: #fff; border: 1px solid var(--linea); border-radius: var(--radius);
+}
+.wx-now-main { display: flex; align-items: center; gap: 16px; }
+.wx-now-main .wx-icon { width: 76px; height: 76px; }
+.wx-now-temp { margin: 0; font-family: var(--sans); font-weight: 500; font-size: 48px; letter-spacing: -.02em; line-height: 1; color: var(--navy); font-variant-numeric: tabular-nums; }
+.wx-now-desc { margin: 4px 0 0; font-weight: 600; color: var(--navy); }
+.wx-now-feel { margin: 0; font-size: 14px; color: var(--texto-2); }
+.wx-stats {
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 16px;
+  margin: 16px 0 0; padding-top: 14px; border-top: 1px solid var(--linea);
+}
+.wx-stats dt { font-size: 10.5px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--dorado-osc); }
+.wx-stats dd { margin: 2px 0 0; font-size: 16px; font-weight: 600; color: var(--navy); display: flex; align-items: center; }
+.wx-stats dd.wx-small { font-size: 13px; font-weight: 400; color: var(--texto-2); display: block; }
+
+.wx-days { list-style: none; margin: 0; padding: 0; }
+.wx-day {
+  display: grid; grid-template-columns: minmax(0, 1fr) 40px 64px; grid-template-areas: "name icon temp" "extra extra extra";
+  align-items: center; gap: 4px 12px;
+  padding: 12px 4px; border-bottom: 1px solid var(--linea);
+}
+.wx-day:last-child { border-bottom: 0; }
+.wx-day.is-viaje { background: var(--suave); border-radius: 10px; padding: 12px 10px; border-bottom-color: transparent; margin: 2px 0; }
+.wx-day-name { grid-area: name; min-width: 0; }
+.wx-day-name strong { font-family: var(--serif); font-size: 20px; font-weight: 600; color: var(--navy); }
+.wx-day-desc { display: block; font-size: 13.5px; color: var(--texto-2); }
+.wx-day .wx-icon { grid-area: icon; }
+.wx-day-temp { grid-area: temp; text-align: right; font-variant-numeric: tabular-nums; }
+.wx-day-temp .max { display: block; font-size: 18px; font-weight: 600; color: var(--navy); }
+.wx-day-temp .min { display: block; font-size: 14px; color: var(--texto-2); }
+.wx-day-extra {
+  grid-area: extra; display: flex; flex-wrap: wrap; gap: 4px 18px;
+  font-size: 14px; color: var(--texto);
+}
+.wx-day-extra > span { display: inline-flex; align-items: center; }
+.wx-day-extra small { color: var(--texto-2); font-size: 13px; margin-left: 3px; }
+.wx-tag {
+  display: inline-block; margin-left: 8px; padding: 1px 7px; border-radius: 3px; vertical-align: 3px;
+  background: var(--granate); color: #fff; font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+}
+.wx-source { margin-top: 18px; }
+.wx-error { margin: 14px 0; color: var(--texto); }
 
 /* ---------- Aviso emergente ---------- */
 .toast {

@@ -724,7 +724,8 @@
       if (state.sel) closeFicha(true);
       return;
     }
-    if (!el.info.hidden || !state.sel) return;
+    var wx = document.getElementById('tiempo');
+    if (!el.info.hidden || (wx && !wx.hidden) || !state.sel) return;
     var tag = (e.target.tagName || '').toLowerCase();
     if (tag === 'input' || tag === 'textarea') return;
     if (e.target.closest && e.target.closest('.leaflet-container')) return;
