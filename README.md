@@ -70,6 +70,10 @@ La dirección guarda lo que tenéis abierto, así que podéis copiarla y mandarl
 
 Los días son `jueves`, `viernes`, `sabado` y `domingo`. Las paradas se numeran por orden horario dentro de cada día.
 
+## Al publicar cambios
+
+En `index.html`, los archivos CSS y JS llevan un número de versión (`?v=…`). Si cambiáis `css/styles.css`, `js/app.js` o `js/tiempo.js`, cambiad también ese número: así los móviles descargan la versión nueva en lugar de usar la que tienen guardada.
+
 ## Cambiar datos
 
 Todo el contenido sale de `data/guia.json`. Si cambia una hora, un precio o un texto, editad solo ese archivo y volved a subirlo. No hace falta tocar el código.
