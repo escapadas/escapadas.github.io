@@ -1,6 +1,6 @@
 /* ============================================================
    El tiempo en Edimburgo · Open-Meteo (gratis, sin clave)
-   Botón con el tiempo actual + panel con la previsión de 7 días
+   Botón con el tiempo actual + panel con la previsión de 15 días
    ============================================================ */
 (function () {
   'use strict';
@@ -11,9 +11,9 @@
     '&current=temperature_2m,apparent_temperature,relative_humidity_2m,is_day,weather_code,wind_speed_10m,wind_direction_10m,wind_gusts_10m,precipitation' +
     '&hourly=precipitation_probability' +
     '&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max,wind_gusts_10m_max,wind_direction_10m_dominant,sunrise,sunset' +
-    '&timezone=Europe%2FLondon&forecast_days=7&wind_speed_unit=kmh';
+    '&timezone=Europe%2FLondon&forecast_days=15&wind_speed_unit=kmh';
   var VIAJE = { '2026-11-19': 1, '2026-11-20': 1, '2026-11-21': 1, '2026-11-22': 1 };
-  var CACHE_KEY = 'edimburgo-tiempo-v1';
+  var CACHE_KEY = 'edimburgo-tiempo-v2';
   var MAX_AGE = 30 * 60 * 1000; // 30 minutos
 
   var btn = document.getElementById('btnTiempo');
@@ -139,7 +139,7 @@
     }
     var c = data.current;
     btn.innerHTML = icon(c.weather_code, c.is_day) + '<span class="wx-temp">' + fmtTemp(c.temperature_2m) + '</span>';
-    btn.setAttribute('aria-label', 'El tiempo en Edimburgo ahora: ' + texto(c.weather_code) + ', ' + r(c.temperature_2m) + ' grados. Ver la previsión de 7 días');
+    btn.setAttribute('aria-label', 'El tiempo en Edimburgo ahora: ' + texto(c.weather_code) + ', ' + r(c.temperature_2m) + ' grados. Ver la previsión de 15 días');
   }
 
   function renderPanel() {
@@ -165,8 +165,11 @@
       '<div><dt>Luz hoy</dt><dd>' + hora(d.sunrise[0]) + ' – ' + hora(d.sunset[0]) + '</dd></div>' +
       '</dl></section>';
 
-    h += '<h3>Próximos 7 días</h3><ol class="wx-days">';
+    h += '<h3>Próximos ' + d.time.length + ' días</h3><ol class="wx-days">';
     for (var i = 0; i < d.time.length; i++) {
+      if (i === 7) {
+        h += '</ol><div class="wx-split"><p class="eyebrow">Más adelante</p><p>A partir del octavo día la previsión es <strong>orientativa</strong>: puede cambiar bastante de un día para otro.</p></div><ol class="wx-days wx-days-far">';
+      }
       var viaje = VIAJE[d.time[i]];
       h += '<li class="wx-day' + (viaje ? ' is-viaje' : '') + '">' +
         '<div class="wx-day-name"><strong>' + nombreDia(d.time[i], i) + '</strong>' + (viaje ? '<span class="wx-tag">Viaje</span>' : '') +
@@ -182,9 +185,9 @@
     }
     h += '</ol>';
 
-    var hayViaje = d.time.some(function (t) { return VIAJE[t]; });
-    if (!hayViaje) {
-      h += '<div class="note note-tip"><p><strong>Los días del viaje (19–22 nov)</strong> aparecerán aquí cuando entren en la previsión de 7 días, a partir del 13 de noviembre.</p></div>';
+    var faltan = Object.keys(VIAJE).filter(function (t) { return d.time.indexOf(t) < 0 && t > d.time[d.time.length - 1]; });
+    if (faltan.length) {
+      h += '<div class="note note-tip"><p><strong>' + (faltan.length === 4 ? 'Los días del viaje (19–22 nov)' : 'El resto de días del viaje') + '</strong> aparecerán aquí en cuanto entren en la previsión, que llega hasta 15 días vista.</p></div>';
     }
     var act = new Date(fetchedAt);
     var viejo = Date.now() - fetchedAt > MAX_AGE * 2;

@@ -582,6 +582,10 @@ button.gallery-item span { color: var(--navy); font-weight: 600; }
   background: var(--granate); color: #fff; font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
 }
 .wx-source { margin-top: 18px; }
+.wx-split { margin: 18px 0 4px; padding: 12px 14px; border-radius: 10px; background: var(--suave); font-size: 14px; }
+.wx-split p { margin: 0; }
+.wx-split .eyebrow { margin-bottom: 2px; }
+.wx-days-far .wx-icon { opacity: .85; }
 .wx-error { margin: 14px 0; color: var(--texto); }
 
 /* ---------- Aviso emergente ---------- */

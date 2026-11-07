@@ -8,7 +8,7 @@ Web estática (HTML + CSS + JavaScript, sin backend) con el plan del viaje a Edi
 index.html          Página única
 css/styles.css      Estilos (paleta y tipografías de la guía en PDF)
 js/app.js           Lógica: mapa, selector de día, panel, fichas, enlaces directos
-js/tiempo.js        El tiempo: botón con el tiempo actual y previsión de 7 días
+js/tiempo.js        El tiempo: botón con el tiempo actual y previsión de 15 días
 data/guia.json      Única fuente de datos (textos, horas, precios, coordenadas, créditos)
 img/                Fotos optimizadas: <nombre>.webp/.jpg (máx. 1200 px) y <nombre>_t.webp/_t.jpg (miniaturas)
 vendor/leaflet/     Leaflet 1.9.4 (copia local, sin CDN)
@@ -18,7 +18,7 @@ Mapa: Leaflet con teselas de OpenStreetMap (sin claves de API). Fuentes: Google 
 
 ## El tiempo
 
-El botón con el icono y la temperatura (arriba a la derecha del mapa) muestra el tiempo actual en Edimburgo. Al pulsarlo se abre la previsión de 7 días con probabilidad de lluvia, temperatura máxima y mínima, y viento con sus rachas. Los días del viaje (19–22 nov) salen marcados. Los datos son de [Open-Meteo](https://open-meteo.com/) (gratis, sin clave, licencia CC BY 4.0), se actualizan cada 30 minutos y, si no hay conexión, se muestran los últimos guardados.
+El botón con el icono y la temperatura (arriba a la derecha del mapa) muestra el tiempo actual en Edimburgo. Al pulsarlo se abre la previsión de 15 días (a partir del octavo día, marcada como orientativa) con probabilidad de lluvia, temperatura máxima y mínima, y viento con sus rachas. Los días del viaje (19–22 nov) salen marcados. Los datos son de [Open-Meteo](https://open-meteo.com/) (gratis, sin clave, licencia CC BY 4.0), se actualizan cada 30 minutos y, si no hay conexión, se muestran los últimos guardados.
 
 ## Verlo en local
 
